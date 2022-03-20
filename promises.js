@@ -53,7 +53,7 @@ function createPost(post) {
 
 //Async await with fetch
 
-//clean way
+//clean way of doing fecth call
 
 async function fetchUsers(){
    const res = await fetch("https://jsonplaceholder.typicode.com/users");
